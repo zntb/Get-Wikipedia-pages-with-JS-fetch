@@ -14,7 +14,7 @@ function getPageViewsForTopic() {
   searchTerm = searchTerm.charAt(0).toUpperCase() + searchTerm.slice(1);
 
   fetch(
-    `https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/${searchTerm}/daily/20231001/20231101`
+    `https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/${searchTerm}/daily/20240401/20240501`
   )
     .then((response) => response.json())
     .then((data) => {
