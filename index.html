@@ -5,15 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Fetching Wikipedia Page View Data</title>
     <script src="test-fetch.js" defer></script>
 </head>
 
 <body>
+    <h1>Fetching Wikipedia Page View Data</h1>
+    <div class="search_interval">
+        <div class="date">
+          <label>Start date:</label>
+          <input type="date" id="start_date"">
+        </div>
+        <div class="hr">__</div>
+        <div class="date">
+        <label>End date:</label>
+        <input type="date" id="final_date"">
+        </div> 
+    </div>
+    <div class="container">
+        
     <input type="text" id="search_term"><br>
     <button id="btn_get_data">Get page views for topic</button>
+    </div>
     <br>
-    <span id="output"></span>
+    <div class="result">
+        <ul>
+            <li id="output"></li>
+         </ul>
+    </div>
+    
 </body>
 
 </html>

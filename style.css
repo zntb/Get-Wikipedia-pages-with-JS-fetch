@@ -1,0 +1,115 @@
+body {
+  text-align: center;
+  width: 100%;
+  background: radial-gradient(circle, #104444, #114c63, #0b1f1d);
+  color: rgb(224, 235, 240);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.6em;
+  margin: 0;
+  padding: 0;
+}
+
+.search_interval {
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#start_date,
+#final_date {
+  margin: auto;
+  width: 120px;
+  margin-right: 10px;
+}
+
+.hr {
+  margin: 10px 10px 0 1px;
+  border: 2px;
+  font-weight: 900;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+  font-size: 17px;
+  font-family: Raleway;
+  /* text-align: center; */
+  border-radius: 5px;
+  border: 1px solid #aaaaaa;
+}
+
+button {
+  margin-top: 15px;
+  background-color: #4caf50;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  font-family: Raleway;
+  border-radius: 5px;
+  transition: cubic-bezier(1, 0, 0, 1) 0.5s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.result {
+  height: 35rem;
+  width: 30rem;
+  margin: auto;
+  border-radius: 5px;
+  background: #64cfcf;
+  padding: 10px;
+  color: #0b1f1d;
+  scroll-behavior: 20px;
+  overflow-y: auto;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.total {
+  font-weight: bold;
+}
+
+.total-views {
+  font-weight: bold;
+}
